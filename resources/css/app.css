@@ -1,3 +1,8 @@
+/* Global */
+:root {
+    /* Vars go here */
+    --ev-green: #43d96a;
+}
 body {
     padding: 0;
     margin: 0;
@@ -11,16 +16,23 @@ a {
     font-weight: bold;
 }
 a:hover {
-    color:#43d96a;
+    color: var(--ev-green);
     text-decoration: underline;
 }
 
+/* Navbar */
 nav {
     padding: 1em;
-    height: 5em;
+    height: 4em;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    width: calc(100% - 4em);
+    padding: 2em;
+    box-shadow: 0 0 10px black;
 }
 nav img {
     height: 100%;
@@ -31,6 +43,7 @@ nav ul {
     display: flex;
     justify-content: space-between;
     white-space: nowrap;
+    padding: 0;
 }
 nav ul li {
     display: inline-block;
@@ -41,6 +54,46 @@ nav ul li:hover {
     transform: scale(1.1);
 }
 
+/* Section */
+section {
+    max-width: 50%;
+    width: 100%;
+    margin: 2em;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border-radius: 1em;
+}
+section img {
+    width: 100%;
+    height: 12em;
+    object-fit: cover;
+    border-radius: 1em 1em 0 0;
+}
+section h2 {
+    margin: 0 1em;
+    padding: 0;
+    font-size: 2em;
+}
+section .inner-section {
+    margin: 1em;
+}
+
+/* Divider */
+.divider {
+    margin: 3em 0;
+    padding: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #222;
+}
+.divider h1 {
+    color: var(--ev-green);
+}
+
+/* Home Page */
 .hero {
     height: 75vh;
     display: flex;
@@ -57,4 +110,41 @@ nav ul li:hover {
     padding: 0;
     font-size: 3em;
     text-shadow: 0 0 10px black;
+}
+.subhero {
+    display:flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+/* Carousel */
+.carousel {
+    height: 20em;
+    overflow: hidden;
+}
+.carousel .inner-section {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    animation: slide 20s linear infinite;
+}
+.carousel img {
+    height: 20em;
+    width: 20em;
+    object-fit: cover;
+    margin: 0 1em;
+}
+.carousel img:hover {
+    transform: scale(1.1);
+}
+.carousel .inner-section:hover {
+    animation-play-state: paused;
+}
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-139em);
+    }
 }
