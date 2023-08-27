@@ -23,8 +23,10 @@
         <h1>Authorized Installers</h1>
         <img src="{{ asset('images/Enel-X.png') }}" height="100px" />
     </div>
-    <div style="display:flex; margin: 1em auto; max-width: 800px; justify-content: center; align-items: start;">
-        <img src="{{ asset('images/10-2-smartphone-transparent.png') }}" width="200" />
+    <div class="subhero">
+        <div class="img-box">
+            <img src="{{ asset('images/10-2-smartphone-transparent.png') }}" width="200" />
+        </div>
         <div style="max-width: 600px;">
             <h2><a href="https://afdc.energy.gov/fuels/electricity_infrastructure_development.html" target="_blank">Charging Infrastructure Procurement and Installation</a></h2>
             <p>Increasing available public and private charging equipment require infrastructure procurement. Learn about how to successfully plan for, procure, and install charging infrastructure.</p>

@@ -16,3 +16,4 @@ use App\Http\Controllers\Controller;
 
 Route::get('/', [Controller::class, 'home'])->name('home');
 Route::get('/what-is-ev', [Controller::class, 'whatIsEv'])->name('what-is-ev');
+Route::get('/products', [Controller::class, 'products'])->name('products');
