@@ -11,7 +11,8 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body>
-        <x-navbar />
+        <x-navbar :indicators="$indicators" />
         {{ $slot }}
+        <x-footer />
     </body>
 </html>

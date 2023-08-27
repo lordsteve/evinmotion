@@ -1,0 +1,6 @@
+<footer>
+    <x-footer.social-links />
+    <p>5620 San Francisco Road Northeast, Albuquerque, New Mexico 87109, United States. Call Us Today: Toll-FREE 888-679-6216 Copyright © 2020 EVinmotion - All Rights Reserved.<br />a wholly-owned subsidiary of ARS  Services, LLC.</p>
+    
+    <p>NOTICE: All of the information and material, including text, images, logos, and product names, is either the property of, or used with permission by ARS Services LLC. The information may not be distributed, modified, displayed, or reproduced - in whole or in part - without the prior written permission of ARS Services LLC. DISCLAIMER: The information contained in this document is provided on an "AS IS" basis for general information purposes only without any representations or warranties, whether express or implied,  including any implied warranties of satisfactory quality, completeness, accuracy, or fitness for a particular purpose. EVinmotion and its subsidiaries and related corporations disclaim any and all liability for use of this information even if advised of the possibility that loss, damage, or expenses may arise.</p>
+</footer>
