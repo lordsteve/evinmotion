@@ -31,4 +31,18 @@
             <a href="https://afdc.energy.gov/">FIND OUT MORE ></a>
         </x-section>
     </div>
+    <div class="divider">
+        <h3>Where can I find a charging station?</h3>
+        <p>Charging stations can be found and will be needed where there is on-street parking, at taxi stands, in parking lots (at places of employment, hotels, airports, shopping centers, convenience shops, fast food restaurants, coffeehouses, etc.), as well as in the workplaces, in driveways and garages at home. Existing filling stations may also incorporate charging stations. As of 2017, charging stations have been criticized for being inaccessible, hard to find, out of order, and slow; thus reducing EV expansion.[34] At the same time, more gas stations add EV charging stations to meet the increasing demand among EV drivers.[35] Worldwide, hotels are adopting a policy of providing their guests with electric car charging.</p>
+    </div>
+    <div class="subhero">
+        <div class="img-box">
+            <img src="{{ asset('images/JuiceBox_Residential_Pedestal_1.jpg') }}" width="300" />
+        </div>
+        <div style="max-width: 600px;">
+            <h2>Charging Equipment</h2>
+            <p>Charging equipment for plug-in electric vehicles PEVs—which include plug-in hybrid electric vehicles (PHEVs) and all-electric vehicles (EVs)—is classified by the rate at which the batteries are charged. Charging times vary based on how depleted the battery is, how much energy it holds, the type of battery, and the type of charging equipment. The charging time can range from less than 20 minutes to 20 hours or more, depending on these factors. Charging the growing number of PEVs requires a robus network of stations for both consumer and fleets.</p>
+            <p>For information on currently available EVSE models, see the Electric Drive Transportation Association's <a href="https://www.goelectricdrive.org/charging-ev/charging-equipment-showroom" target="_blank">GoElectricDrive website</a>, which includes information on charging networks and service providers. When <a href="https://afdc.energy.gov/fuels/electricity_infrastructure_development.html" target="_blank">choosing equipment</a> for a specific application, many factors, such as networking, payment capabilities, and <a href="https://afdc.energy.gov/fuels/electricity_infrastructure_maintenance_and_operation.html" target="_blank">operation and maintenance</a>, should be considered. For additional information on selecting the right charger, see the <a href="https://afdc.energy.gov/publications/search/keyword/?q=charger%20selection%20guide" target="_blank">California Energy Commission's (CEC) EV Charger Selection Guide</a>.</p>
+        </div>
+    </div>
 </x-layout>

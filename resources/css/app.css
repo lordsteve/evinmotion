@@ -101,6 +101,7 @@ section .inner-section {
     align-items: center;
     flex-direction: column;
     background-color: #222;
+    text-align: center;
 }
 .divider h1 {
     color: var(--ev-green);
