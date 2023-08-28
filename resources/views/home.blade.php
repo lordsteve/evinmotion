@@ -1,16 +1,16 @@
 <x-layout :indicators="$indicators">
-    <x-hero img="{{ asset('images/hero.jpg') }}">
+    <x-hero img="{{ asset('storage/images/hero.jpg') }}">
         EV Charging Station Integration and Service Specialists
     </x-hero>
     <div class="subhero">
-        <x-section img="{{ asset('images/andrew-roberts-2JvEjF0tf50-unsplash.jpg') }}" name="We Handle Your EV Charging Station Needs">
+        <x-section img="{{ asset('storage/images/andrew-roberts-2JvEjF0tf50-unsplash.jpg') }}" name="We Handle Your EV Charging Station Needs">
             <ul>
                 <li>Free Site Surveys</li>
                 <li>Electrical Work</li>
                 <li>Charging Station Installs</li>
             </ul>
         </x-section>
-        <x-section img="{{ asset('images/chuttersnap-xJLsHl0hIik-unsplash.jpg') }}" name="From Concept to Charge!">
+        <x-section img="{{ asset('storage/images/chuttersnap-xJLsHl0hIik-unsplash.jpg') }}" name="From Concept to Charge!">
             <ul>
                 <li>Proper EV Signage for the Parking Spots</li>
                 <li>Full Maintenance Service After the Install</li>
@@ -21,11 +21,11 @@
     <x-carousel/>
     <div class="divider">
         <h1>Authorized Installers</h1>
-        <img src="{{ asset('images/Enel-X.png') }}" height="100px" />
+        <img src="{{ asset('storage/images/Enel-X.png') }}" height="100px" />
     </div>
     <div class="subhero">
         <div class="img-box">
-            <img src="{{ asset('images/10-2-smartphone-transparent.png') }}" width="200" />
+            <img src="{{ asset('storage/images/10-2-smartphone-transparent.png') }}" width="200" />
         </div>
         <div style="max-width: 600px;">
             <h2><a href="https://afdc.energy.gov/fuels/electricity_infrastructure_development.html" target="_blank">Charging Infrastructure Procurement and Installation</a></h2>

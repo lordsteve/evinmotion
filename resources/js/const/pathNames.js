@@ -6,6 +6,7 @@ const pathNames = {
     INCENTIVES: '/incentives',
     CONTACT_US: '/contact-us',
     ABOUT_US: '/about-us',
-    NEWS: '/news'
+    NEWS: '/news',
+    API: '/api',
 };
 export default pathNames;
